@@ -1,0 +1,1 @@
+Font courtesy of Pitchers on forums.warframe.com

@@ -1,0 +1,195 @@
+body{
+	background-image: linear-gradient(rgba(50, 50, 50, 255), Black);
+	background-attachment: fixed;
+	font-family: sans-serif;
+	padding: 1rem;
+}
+/*Header*/
+header{
+	background-image: url("../../media/images/lotus.png");
+	background-repeat: no-repeat;
+	background-size: 30rem 20rem;
+	background-position: center;
+	width: 100%;
+	height: 20rem;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+}
+header>div{
+	font-family: WarframeFanFont;
+	vertical-align: middle;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+header>div>h1{
+	color: Cyan;
+	font-size: 3rem;
+	margin: 0;
+}
+header>div>h2{
+	font-weight: 300;
+	color: White;
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+/*Body and Content*/
+main>article>div.image{
+	border: 0.05rem solid White;
+	background-color: rgba(32, 32, 32, 32);
+	width: 10rem;
+	height: 10rem;
+	float: left;
+	margin-left: 1rem;
+	padding: 0.25rem;
+	position: relative;
+}
+main>article>div.image>img{
+	height: auto;
+	width: auto;
+	max-width: 10rem;
+	max-height: 10rem;
+	display: inline;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+main>article>div.text{
+	margin: 2rem;
+	background-color: Black;
+	padding-bottom: 0.5rem;
+	margin-left: 13rem;
+	position: relative;
+}
+main>article>div.text>h1{
+	background-color: Black;
+	color: White;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	margin: 0;
+}
+main>article>div.text>div.content{
+	background-image: linear-gradient(to right, Black, rgba(50, 50, 50, 255), Black);
+	padding: 1rem;
+	margin: 0;
+}
+main>article>div.text>div.content>blockquote{
+	color: Silver;
+	font-size: 1rem;
+	margin: 0, 2rem, 2rem, 2rem;
+}
+main>article>div.text>div.content>p{
+	color: White;
+	font-size: 1.25rem;
+	padding: 0.5rem;
+	margin: 0;
+	text-indent: 3rem;
+}
+main>article>div.text>div.content>a{
+	color: White;
+	font-size: 1.25rem;
+	padding: 0.5rem;
+	margin: 0;
+	font-style: italic;
+}
+main>article>div.text>div.content>a:visited{
+	color: Gray;
+	font-size: 1.25rem;
+	padding: 0.5rem;
+	margin: 0;
+	font-style: italic;
+}
+main>article>div.text>div.content>ul{
+	color: White;
+	font-size: 1.25rem;
+	padding: 0.5rem;
+	margin: 0;
+}
+main>article>div.text>div.content>ul>li>i{
+	color: Silver;
+	font-size: 1.25rem;
+	padding: 0.5rem;
+	margin: 0;
+}
+main>article>div.text>div.content>ul>li>a{
+	color: Silver;
+	font-size: 1.25rem;
+	padding: 0.5rem;
+	margin: 0;
+	font-style: italic;
+}
+main>article>div.text>div.content>ul>li>a:visited{
+	color: Gray;
+	font-size: 1.25rem;
+	padding: 0.5rem;
+	margin: 0;
+	font-style: italic;
+}
+
+/*Gallery*/
+main>div#gallery{
+	margin-bottom: 3rem;
+	text-align: center;
+}
+main>div#gallery>h1{
+	text-align: left;
+	font-size: 3rem;
+	font-weight: 10;
+	color: White;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	letter-spacing: 1rem;
+	width: 100%;
+	border-bottom: 0.05rem solid White;
+}
+main>div#gallery>a.image{
+	border: 0.05rem solid White;
+	background-color: rgba(32, 32, 32, 32);
+	width: 10rem;
+	height: 10rem;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	padding: 0.25rem;
+	position: relative;
+	display: inline-block;
+}
+main>div#gallery>a.image>img{
+	height: auto;
+	width: auto;
+	max-width: 10rem;
+	max-height: 10rem;
+	display: inline;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*Footer*/
+footer{
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	color: Silver;
+	font-size: 1rem;
+}
+footer>cite>a{
+	color: White;
+}
+footer>cite>a:visited{
+	color: Gray;
+}
+footer>a{
+	color: White;
+}
+footer>a:visited{
+	color: Gray;
+}
+
+@font-face {
+  font-family: WarframeFanFont;
+  src: url('../fonts/WarframeFanFont_b1.ttf');
+}
