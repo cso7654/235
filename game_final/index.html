@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/png" href="favicomatic/favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="favicomatic/favicon-16x16.png" sizes="16x16" />
+		<link href="https://fonts.googleapis.com/css?family=Orbitron|Press+Start+2P&display=swap" rel="stylesheet">
+		
+		<title>In-Class Exercise</title>
+		<style>
+			*{
+				font-family: "Press Start 2P";
+			}
+			img.normal_image{
+				height: 20rem;
+			}
+			body{
+				background-color: rgba(32, 32, 32, 255);
+				color: gray;
+				margin: 0;
+			}
+			header{
+				background-image: linear-gradient(to right, Black, rgba(64, 64, 64, 255));
+				border-bottom: 0.25rem solid gray;
+			}
+			h1 { 
+				font-family: "Orbitron";
+				color: Crimson;
+				border-bottom: 0.25rem solid gray;
+				font-size: 3rem;
+				padding: 1rem 1rem 1rem 5rem;
+			}
+			h2 {
+				text-indent: 3rem;
+				color: Crimson;
+				font-family: "Orbitron";
+				font-size: 3rem;
+				margin: 1rem;
+			}
+			p {
+				text-indent: 5rem;
+			}
+			main{
+				margin: 5rem;
+			}
+			blockquote,.quote_text { 
+				padding: 1rem;
+				margin: 5rem;
+			}
+			.side{
+				float:right;
+			}
+			a{
+				color: gainsboro;
+			}
+			dl {
+				display: flex;
+				flex-flow: row wrap;
+			}
+			dt {
+				flex-basis: 15%;
+				padding: 0.5rem;
+				text-align: left;
+				color: Silver;
+			}
+			dd {
+				flex-basis: 70%;
+				flex-grow: 1;
+				margin: 0;
+				padding: 0.5rem;
+			}
+			blockquote,.quote_text{
+				background-image: linear-gradient(to right, Black, rgba(64, 64, 64, 255));
+			}
+			footer{
+				border-top: 0.25rem solid gray;
+				background-image: linear-gradient(to right, Black, rgba(64, 64, 64, 255));
+				padding: 2rem;
+				text-align: center;
+			}
+			img#logo{
+				width: 50%;
+				height: auto;
+				margin: 2rem;
+				
+				left: 50%;
+				transform: translate(50%, 0);
+			}
+		</style>
+	</head>
+	<body>
+
+		<header>
+			<img id="logo" src="images/dig-dug.svg" alt="Dig-Dug logo">
+		</header>
+
+		<main>
+			<h1>Dig Dug</h1>
+
+			<div id="images">
+				<img src="images/dig-dug-burnt.png" alt="dig dug screenshot" class="side">
+				<img src="images/dig-dug-cover.jpg" alt="dig dug cover" class="normal_image">
+				<a href="big/pic1.html">View enlarged</a>
+			</div>
+
+			<div id="publishing">
+				<h2>Publishing Info</h2>
+				<ul>
+					<li>Published by: <i>Atari, <abbr title="Incorporated">Inc.</abbr></i></li>
+					<li>Developed by: <i>Namco Limited</i></li>
+					<li>Released: <i>Apr, 1982</i></li>
+				</ul>
+			</div>
+
+			<div id="description">
+				<h2>Description</h2>
+				<p><i>Dig Dug</i> is a 1-2 player arcade game in which you have to use your shovel to dig your way through the earth. Stopping you from doing this are two monsters, called Pooka and Fygar, 
+				who will continually chase you around. The only weapon that you carry is an air pump, which you can use to inflate the monsters to the point where they explode. [...]</p>
+				<img src="images/fygar_inflate3.gif" alt="An enemy being inflated in Dig-Dug">
+			</div>
+
+			<div id="categories">
+				<h2>Game Categories</h2>
+				<dl>
+					<dt><b>Genre</b></dt>
+						<dd>Action</dd>
+					<dt><b>Perspective</b></dt>
+						<dd>Side View</dd>
+					<dt><b>Visual</b></dt>
+						<dd>Fixed</dd>
+					<dt><b>Gameplay</b></dt>
+						<dd>Arcade</dd>
+				</dl>
+			</div>
+
+			<div id="quote" class="quote_text">
+				<h2>Quote</h2>
+				<p>This definitely goes under the heading of <i>"Games That Were Made While a Programmer Was on Drugs,"</i> or at least had a good imagination. And maybe they were into horror movies too<br>
+				-- <a href="https://www.mobygames.com/mobyrank/source/sourceId,540/" target="_blank">mobygames link</a></p>
+			</div>
+			
+		</main>
+
+		<footer>
+			<h2>Source</h2>
+			<a href="https://www.mobygames.com/game/arcade/dig-dug">https://www.mobygames.com/game/arcade/dig-dug</a>
+			<h2>Authors</h2>
+			<a><b>Cam Olson</b> and <b>Hunter Giewat</b></a>
+
+		</footer>
+
+	</body>
+</html>
