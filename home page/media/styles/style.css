@@ -1,0 +1,58 @@
+body{
+	padding: 2rem;
+	margin: 0;
+	background-image: linear-gradient(Indigo, DarkSlateBlue);
+	background-attachment: fixed;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1rem;
+	color: DarkSlateBlue;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3rem;
+	color: GhostWhite;
+	border-bottom: 0.5rem solid PowderBlue;
+	margin-bottom: 3rem;
+}
+li{
+	margin: 1rem;
+}
+a{
+	color: SlateBlue;
+	text-decoration: none;
+	border-bottom: 0.25rem solid SlateBlue;
+	font-weight: bold;
+}
+a:visited{
+	color: RebeccaPurple;
+	border-color: RebeccaPurple;
+}
+a:hover{
+	color: PowderBlue;
+	border-color: PowderBlue;
+}
+article#links>section{
+	padding: 3rem;
+	margin: 5rem 5rem;
+	background-color: GhostWhite;
+	border-left: 3rem solid PowderBlue;
+}
+article#links>section>h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	color: DarkSlateBlue;
+	border-bottom: 0.5rem solid PowderBlue;
+}
+article#links>section>div.content{
+	display: flex;
+	align-items: center;
+}
+article#links>section>div.content>p{
+	text-indent: 3rem;
+}
+img#profile{
+	height: 15rem;
+	border: 0.5rem solid PowderBlue;
+	float: left;
+	margin: 1rem;
+}
