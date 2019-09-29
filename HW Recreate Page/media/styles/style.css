@@ -1,0 +1,130 @@
+body{
+	background-color: #e0e2db;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: #2e3532;
+	font-family: "Arial Rounded MT Bold";
+	color: #d2d4c8;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 4rem;
+}
+header>img{
+	padding: 0rem 2rem 0rem 2rem;
+	width: 4rem;
+	height: 4rem;
+}
+header>h1{
+	font-size: 1.5rem;
+	padding: 0;
+	margin-left: -1.5rem;
+}
+header>div#links{
+	margin-left: auto;
+	margin-right: 2rem;
+}
+header>div#links>a{
+	font-size: 1.5rem;
+	margin-left: 1rem;
+}
+
+content>img{
+	width: 100%;
+	height: auto;
+}
+content>section{
+	margin: 1rem;
+}
+content>section#aspects{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+content>section#aspects>section{
+	background-color: #d2d4c8;
+	margin: 1rem;
+	flex-grow: 1;
+	flex-basis: 20rem;
+	flex-shrink: 0;
+}
+content>section#aspects>section>img{
+	width: 100%;
+	height: auto;
+}
+content>section#aspects>section>article{
+	margin: 1.5rem;
+	margin-bottom: 2rem;
+}
+content>section#aspects>section>article>h1{
+	font-family: "Arial Rounded MT Bold";
+	color: #13295c;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+}
+content>section#aspects>section>article>p{
+	font-family: "Arial";
+	color: #2e3532;
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+content>section#about{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 5rem;
+}
+content>section#about>article{
+	background-color: #bc0c06;
+	color: #e0e2db;
+	margin: 1rem;
+	flex-grow: 1;
+	flex-basis: 30rem;
+	flex-shrink: 0;
+}
+content>section#about>article>h1{
+	font-family: "Arial Rounded MT Bold";
+	font-size: 1.5rem;
+	margin: 1.5rem;
+}
+content>section#about>article>p{
+	font-family: "Arial";
+	margin: 1.5rem;
+	line-height: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+footer{
+	background-color: #2e3532;
+	color: #e0e2db;
+	font-family: "Arial";
+	bottom: 0;
+	padding: 0.5rem 2rem 0.5rem 2rem;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+}
+footer>p#holder{
+	margin-left: auto;
+	text-align: right;
+}
+
+a{
+	text-decoration: none;
+}
+a:visited{
+	color: #d2d4c8;
+}
+a:hover{
+	color: #bc0c06;
+}
+
+@font-face{
+	font-family: "Arial Rounded MT Bold";
+	src: url(../fonts/ARLRDBD_0.TTF);
+}
