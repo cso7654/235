@@ -22,9 +22,8 @@ None
 
 ## Aesthetics
 
-..*
-1.Visual: Minimalist
-2.Audio: Minimal/None
+- Visual: Minimalist
+- Audio: Minimal/None
 
 ## Gameplay
 
